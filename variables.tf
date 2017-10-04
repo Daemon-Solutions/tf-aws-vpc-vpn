@@ -32,7 +32,7 @@ variable "domain" {
 variable "azs" {
   description = "Comma separated list of AWS Availability zones to span resources across"
   type = "string"
-  default = "eu-west-1b,eu-west-1c,eu-west-1d"
+  default = "eu-west-1a,eu-west-1b,eu-west-1c"
 }
 
 variable "public_subnets" {
